@@ -8,3 +8,6 @@ run:
 
 deploy: build
 	@rsync -avp public/ nubes:/var/www/html/
+
+clean:
+	@rm -rf public
