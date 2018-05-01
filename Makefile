@@ -1,8 +1,10 @@
 SHELL := /bin/bash
 
-
 build:
 	@hugo
 
-deploy:
+run:
+	@hugo server -D --disableFastRender
+
+deploy: build
 	@rsync -avp public/ nubes:/var/www/html/
