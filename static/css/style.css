@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+nav li {
+  padding-right: 1rem;
+  display: inline-block;
+}
+
+main {
+  padding: 2rem 16rem 8rem 16rem;
+}
+
+article {
+  padding-bottom: 1.25rem;
+}
+
+h1 {
+  font-size: 250%;
+  margin: 0.67em 0;
+}
+
+h2 {
+  font-size: 140%;
+}
+
+a:visited {
+  color: #0000EE;
+}
+
+a:active, a:hover {
+  color: #EE0000;
+}

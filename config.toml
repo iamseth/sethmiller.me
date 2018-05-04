@@ -1,6 +1,7 @@
 baseURL = "https://sethmiller.me"
 languageCode = "en-us"
-theme = "tachyons"
+disableHugoGeneratorInject = true
+
 [params]
   title = "Seth Miller"
   description = "Seth Miller's blog."

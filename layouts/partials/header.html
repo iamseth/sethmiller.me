@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ $.Site.Params.title }}</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="author" content="{{ $.Site.Params.author }}">
+    <meta name="description" content="{{ $.Site.Params.description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1><a href="/">{{ $.Site.Params.title }}</a></h1>
+      <nav>
+        <ul class="list">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="https://github.com/{{ $.Site.Params.github }}" target="_blank">GitHub</a></li>
+          <li><a href="https://twitter.com/{{ $.Site.Params.twitter }}" target="_blank">Twitter</a></li>
+          <li><a href="/index.xml" target="_blank">RSS</a></li>
+        </ul>
+      </nav>
+    </header>
