@@ -30,12 +30,12 @@ article {
 }
 
 h1 {
-  font-size: 250%;
+  font-size: 300%;
   margin: 0.67em 0;
 }
 
 h2 {
-  font-size: 140%;
+  font-size: 170%;
 }
 
 a:visited {
@@ -45,3 +45,9 @@ a:visited {
 a:active, a:hover {
   color: #EE0000;
 }
+
+a.title:visited, a.title:link {
+  text-decoration:none;
+  color: #000;
+}
+
