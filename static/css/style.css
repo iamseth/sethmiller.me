@@ -1,9 +1,12 @@
 body {
-  margin: 0;
   height: 100%;
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 header {
@@ -17,7 +20,9 @@ nav li {
 }
 
 main {
-  padding: 2rem 16rem 8rem 16rem;
+  margin: auto;
+  width: 75%;
+  padding: 2rem 4rem 8rem 4rem;
 }
 
 article {
