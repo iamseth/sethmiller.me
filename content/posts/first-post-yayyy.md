@@ -6,8 +6,3 @@ tags:
 ---
 
 This is just a test.
-
-{{< figure width="500" src="https://techonomy.com/wp-content/uploads/2012/08/cloud-computing-diagram.png" title="Steve Francia" >}}
-
-
-{{<gist spf13 7896402>}}
