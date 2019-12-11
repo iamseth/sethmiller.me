@@ -6,18 +6,19 @@
   <meta name="robots" content="noindex">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="author" content="Seth Miller">
-  <meta name="description" content="">
+  <meta name="description" content="eh, who cares?">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="{{ "/css/normalize.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "/css/style.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "/css/syntax.css" | absURL }}">
 </head>
 <body>
 <header>
   <h1>Seth Miller</h1>
   <nav>
     <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/about">About</a></li>
+      <li><a href="{{ "/" | absURL }}">Home</a></li>
+      <li><a href="{{ "/about" | absURL }}">About</a></li>
       <li><a href="https://github.com/iamseth">GitHub</a></li>
       <li><a href="https://twitter.com/tweetsethmiller">Twitter</a></li>
       <li class="desktop"><a href="/index.xml" target="_blank">RSS</a></li>

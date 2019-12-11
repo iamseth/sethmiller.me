@@ -3,3 +3,5 @@ languageCode = "en-us"
 baseURL = "https://sethmiller.me"
 disableHugoGeneratorInject = true
 disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+pygmentsCodeFences = true
+pygmentsUseClasses = true

@@ -12,12 +12,22 @@ body {
 
 header {
   text-align: center;
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 2rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 nav li {
-  padding-right: 1rem;
+  padding: 0 1rem 0 0;
   display: inline-block;
+}
+
+nav li:last-child {
+  padding-right: 0;
 }
 
 main {
@@ -69,6 +79,12 @@ div.subtitle {
   font-size: 0.9rem;
 }
 
+/* Syntax highlighting */
+
 pre {
    font-size: 0.85rem;
+}
+
+div.highlight {
+ margin: 0 0 0 1rem;
 }
