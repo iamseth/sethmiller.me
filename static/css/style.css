@@ -3,6 +3,7 @@ body {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  background: #fff;
 }
 
 * {
@@ -25,29 +26,49 @@ main {
   padding: 2rem 4rem 8rem 4rem;
 }
 
+@media only screen and (max-width: 600px) {
+  main {
+    width: 100%;
+    padding: 1rem 2rem 4rem 2rem;
+  }
+
+  nav li {
+    padding: 0.25rem;
+  }
+
+  .desktop {
+    display: none;
+  }
+}
+
 article {
+  font-size: 1.15rem;
   padding-bottom: 1.25rem;
 }
 
 h1 {
-  font-size: 300%;
-  margin: 0.67em 0;
+  font-size: 3rem;
+  margin: 0.67rem 0;
 }
 
 h2 {
-  font-size: 170%;
+  font-size: 1.7rem;
+  margin-bottom: 0.25rem;
 }
 
-a:visited {
+a, a:visited {
   color: #0000EE;
 }
 
-a:active, a:hover {
-  color: #EE0000;
-}
-
-a.title:visited, a.title:link {
+a.post:visited, a.post:link {
   text-decoration:none;
-  color: #000;
 }
 
+div.subtitle {
+  color: #808080;
+  font-size: 0.9rem;
+}
+
+pre {
+   font-size: 0.85rem;
+}

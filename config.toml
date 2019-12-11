@@ -1,10 +1,5 @@
-baseURL = "https://sethmiller.me"
+assetDir = "static"
 languageCode = "en-us"
+baseURL = "https://sethmiller.me"
 disableHugoGeneratorInject = true
-
-[params]
-  title = "Seth Miller"
-  description = "Seth Miller's blog."
-  twitter = "tweetsethmiller"
-  github = "iamseth"
-keywords = ["test", "blah"]
+disableKinds = ["taxonomy", "taxonomyTerm", "section"]

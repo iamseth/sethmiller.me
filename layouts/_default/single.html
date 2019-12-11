@@ -1,6 +1,9 @@
 {{ partial "header.html" . }}
-    <main>
-      <h2>{{ .Title }}</h2>
-        {{ .Content }}
-    </main>
+<main>
+<article>
+  <h2>{{ .Title }}</h2>
+  <div class="subtitle">{{ .PublishDate.Format "January 2, 2006" }}</div>
+  {{ .Content }}
+</article>
+</main>
 {{ partial "footer.html" . }}
