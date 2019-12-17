@@ -1,7 +1,7 @@
 SHELL := /bin/bash
 
 build:
-	@hugo --minify
+	@hugo
 
 run:
 	@hugo server -D --disableFastRender
